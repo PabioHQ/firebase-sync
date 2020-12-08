@@ -35,7 +35,7 @@ export const run = async () => {
     if (doc.updateTime.toDate().getTime() > lastDate.getTime()) {
       console.log("Got doc", doc.id);
       const data = doc.data();
-      console.log("Posting", doc.id);
+      postToSlack(data, doc.id);
     }
   });
 
