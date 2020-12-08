@@ -1,6 +1,8 @@
 name: Sync CI
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
 jobs:
   test:
     name: Run action
