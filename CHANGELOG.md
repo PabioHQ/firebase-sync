@@ -1,3 +1,11 @@
+## v1.0.1 (2020-12-08)
+
+[📝 Release notes](https://github.com/koj-co/firebase-sync/releases/tag/v1.0.1) · [💻 Compare](https://github.com/koj-co/firebase-sync/compare/v1.0.0...v1.0.1) · [🔖 Tag](https://github.com/koj-co/firebase-sync/tree/v1.0.1) · 🗄️ Archive ([zip](https://github.com/koj-co/firebase-sync/archive/v1.0.1.zip) · [tar.gz](https://github.com/koj-co/firebase-sync/archive/v1.0.1.tar.gz))
+
+### ♻️ Updates
+
+- [`79067f2`](https://github.com/koj-co/firebase-sync/commit/79067f2)  Remove key prefix from Firebase env
+
 ## v1.0.0 (2020-12-08)
 
 [📝 Release notes](https://github.com/koj-co/firebase-sync/releases/tag/v1.0.0) · [🔖 Tag](https://github.com/koj-co/firebase-sync/tree/v1.0.0) · 🗄️ Archive ([zip](https://github.com/koj-co/firebase-sync/archive/v1.0.0.zip) · [tar.gz](https://github.com/koj-co/firebase-sync/archive/v1.0.0.tar.gz))
