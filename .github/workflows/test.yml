@@ -11,7 +11,7 @@ jobs:
       - uses: ./
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           SLACK_BOT_ACCESS_TOKEN: ${{ secrets.SLACK_BOT_ACCESS_TOKEN }}
