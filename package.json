@@ -39,7 +39,9 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
-    "@koj/config": "^1.2.11"
+    "@koj/config": "^1.2.11",
+    "axios": "^0.21.0",
+    "firebase-admin": "^9.4.1"
   },
   "jest": {
     "roots": [

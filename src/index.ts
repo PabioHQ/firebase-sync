@@ -1,5 +1,7 @@
 import { getInput, setFailed } from "@actions/core";
 import { getOctokit } from "@actions/github";
+import { config } from "dotenv";
+config();
 
 const token = getInput("token") || process.env.GH_PAT || process.env.GITHUB_TOKEN;
 
