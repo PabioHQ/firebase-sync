@@ -1,3 +1,11 @@
+## v1.1.0 (2020-12-08)
+
+[📝 Release notes](https://github.com/koj-co/firebase-sync/releases/tag/v1.1.0) · [💻 Compare](https://github.com/koj-co/firebase-sync/compare/v1.0.2...v1.1.0) · [🔖 Tag](https://github.com/koj-co/firebase-sync/tree/v1.1.0) · 🗄️ Archive ([zip](https://github.com/koj-co/firebase-sync/archive/v1.1.0.zip) · [tar.gz](https://github.com/koj-co/firebase-sync/archive/v1.1.0.tar.gz))
+
+### ✨ New features
+
+- [`b714e6d`](https://github.com/koj-co/firebase-sync/commit/b714e6d)  Post to Slack
+
 ## v1.0.2 (2020-12-08)
 
 [📝 Release notes](https://github.com/koj-co/firebase-sync/releases/tag/v1.0.2) · [💻 Compare](https://github.com/koj-co/firebase-sync/compare/v1.0.1...v1.0.2) · [🔖 Tag](https://github.com/koj-co/firebase-sync/tree/v1.0.2) · 🗄️ Archive ([zip](https://github.com/koj-co/firebase-sync/archive/v1.0.2.zip) · [tar.gz](https://github.com/koj-co/firebase-sync/archive/v1.0.2.tar.gz))
