@@ -23,7 +23,7 @@ export const run = async () => {
   const [owner, repo] = (process.env.GITHUB_REPOSITORY || "").split("/");
   const octokit = getOctokit(token);
 
-  const runs = await octokit.actions.listWorkflowRunsForRepo({ owner, repo });
+  const runs = await octokit.actions.listWorkflowRunsForRepo({ owner, repo, status: "completed" });
   const lastRun = runs.data.workflow_runs.find((run) => run.workflow_id === 4116102);
   let lastDate = new Date("1970-01-01");
   if (lastRun) lastDate = new Date(lastRun.created_at);
