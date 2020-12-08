@@ -1,6 +1,6 @@
 {
   "name": "@koj/firebase-sync",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sync new Firebase records in near real-time",
   "main": "dist/index.js",
   "scripts": {
