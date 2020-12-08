@@ -7,7 +7,7 @@ config();
 
 const token = getInput("token") || process.env.GH_PAT || process.env.GITHUB_TOKEN;
 const FIREBASE_SERVICE_ACCOUNT_KEY: ServiceAccount = JSON.parse(
-  process.env.FIREBASE_SERVICE_ACCOUNT_KEY ?? ""
+  process.env.FIREBASE_SERVICE_ACCOUNT_KEY || ""
 );
 const FIREBASE_DATABASE_URL = process.env.FIREBASE_DATABASE_URL;
 
