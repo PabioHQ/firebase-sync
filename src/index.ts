@@ -28,6 +28,8 @@ export const run = async () => {
   let lastDate = new Date("1970-01-01");
   if (lastRun) lastDate = new Date(lastRun.created_at);
 
+  console.log("Last run was", lastDate);
+
   const docs = await subscribers.get();
   docs.forEach((doc) => {
     if (doc.updateTime.toDate().getTime() > lastDate.getTime()) {
@@ -36,6 +38,8 @@ export const run = async () => {
       console.log("Posting", doc.id);
     }
   });
+
+  console.log("All done!");
 };
 
 run()
